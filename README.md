@@ -17,4 +17,5 @@
     GRANT SELECT ON public.function_source_code TO usuariopp;`
 
 - Antes de exportar la bdd. Si se desea otorgar el privilegio EXECUTE en funciones, se necesita usar la siguiente consulta reemplazando {function_name} con el nombre de la funcion y {parameter_types} con los tipose de parametros requeridos 
+
 `GRANT EXECUTE ON FUNCTION function_name(parameter_types) TO usuariopp;`
